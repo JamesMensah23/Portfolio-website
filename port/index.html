@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name='viewport' content='with=device-width, initial-scale=1.0'>
+    <title>James Portfolio</title>
+    <link href='style.css' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/6ccc3915fa.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<header id="home">
+  <div class="">
+    <nav>
+      <img src="coljames.png" class="logo">
+      <ul class='main-nav'>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <img src="jedit.png" class="pic">
+    <div class="small-text">
+      <p>Software Engineer - IT Officer</p>
+      <h1>Hi, I'm <span>James</span> Mensah <br>from Ghana</h1>
+    </div>
+  </div>
+
+</header>
+
+<!--------next section, about.----->
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="jj.png" class="another-pic">
+      </div>
+      <div class="about-col-2">
+        <h1 class='sub-text'>About Me</h1>
+        <div class='aboutext'>
+        <p>Enthusiastic and detail-oriented Junior IT professional, passionate about software development. With strong
+          foundation in Computing and Programming, my personality and work experience also reflect a dynamic blend
+          of technical prowess, adaptability, and a passion for innovation. I consistently demonstrate a strong aptitude for
+          problem-solving, critical thinking, and a keen interest in exploring emerging technology.
+        </p>
+      </div>
+        <div class="tab-titles">
+          <p class='tab-links active-link' onclick="opentab('skills')">Skills</p>
+          <p class='tab-links' onclick="opentab('experience')">Experience</p>
+          <p class='tab-links' onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id='skills'>
+          <ul>
+            <li><span>Web Development</span><br>Designing Web Interfaces(Frontend)</li>
+            <li><span>Backend Development</span><br>Developing web app engineering(Backend)</li>
+            <li><span>Networking</span><br>Computer Network Administration</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id='experience'>
+          <ul>
+            <li><span>Nov 2022 - Dec 2023 </span><br>IT Student-graduate lead at National Insurance Commission</li>
+            <li><span>Aug 2018 - Jun 2019</span><br>Software Engineer Intern at Enterprise Groups PLC</li>
+            <li><span>Jan 2018</span><br>Student Intern at Ghana Technology University College</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id='education'>
+          <ul>
+            <li><span>2019-2023</span><br>BSc Software Engineering from Coventry University</li>
+            <li><span>2014-2017</span><br>Achimota Senior High School</li>
+            <li><span>2023</span><br>Azubi Engineering Program</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<!---SERVICES--->
+<div id="services">
+  <div class="container">        <!--- we used the class name container before and we're using it again, it's possible---->
+    <h1 class='sub-text service-text'>My Services</h1>     <!--- we took the same class sub-text so that our info would have the same css props---->
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Designing Web Interfaces and structure, making up the frontend design using HTML and CSS</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-box"></i>
+        <h2>Backend Engineering</h2>
+        <p>Programming backend applications and functionality specifically using python</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>Computer Hardware</h2>
+        <p>Managing and fix of hardware components, BIOS problems and OS management</p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!---Portfolio---->
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class='sub-text service-text'>My Portfolio</h1>
+    <div class="portfolio-list">
+      <div class="portfolio">
+        <img src="iph.jfif" >
+        <div class="layer">
+          <h3>Weather Application API</h3>
+          <p>An application which can tell the weather conditions from every part of the world.
+            Download it below.</p>
+          <a href="https://github.com/JamesMensah23/Weather-API"><b>Download</b></a>
+        </div>
+      </div>
+
+      <div class="portfolio">
+        <img src="codepic.jfif" >
+        <div class="layer">
+          <h3>Smart Calculator App</h3>
+          <p>An application which performs arithmetic and scientific modules and calculations.
+          Download it below.</p>
+          <a href="https://github.com/JamesMensah23/Calculator"><b>Download</b></a>
+        </div>
+      </div>
+
+      <div class="portfolio">
+        <img src="ecmac.jfif" >
+        <div class="layer">
+          <h3>Personal Portfolio Website</h3>
+          <p>A personal Website which provides all necessary details about my career and everything I work on.
+          View below.</p>
+          <a href="#"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/JamesMensah23" class='btn'>See more</a>
+  </div>
+</div>
+
+<!---Contact---->
+
+<div id="contact">
+  <div class="container">
+    <div class="row service-text">
+      <div class="contact-left">
+        <h1 class='sub-text'>Contact Me</h1>
+        <p><i class="fa-regular fa-envelope"></i>yjay694@gmail.com</p>
+        <p>+233 (269959439)</p>
+        <a href="JamesMensah_Resume_2024.pdf" Download class='btn btn-2'>Download Resume-CV</a>
+      </div>
+
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class='btn btn-2'>Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright rights James reserved. Made with love by James Mensah</p>
+  </div>
+
+</div>
+
+<section class="est">
+
+</section>
+
+
+
+<!------Javascript code for the click to show one specific tab and its content----->
+<script type="text/javascript">
+  var tablinks = document.getElementsByClassName('tab-links');
+  var tabcontents = document.getElementsByClassName('tab-contents');
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+/* we now add the click to show the active link and active tab*/
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+</body>
+</html>
